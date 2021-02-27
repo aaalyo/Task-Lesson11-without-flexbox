@@ -1,0 +1,77 @@
+    body {
+        background-color: rgb(240, 240, 240);
+    }
+    
+    ul {
+        padding: 0px;
+    }
+    
+    h1 {
+        color: gray;
+    }
+    
+    h2 {
+        color: gray;
+    }
+    
+    form {
+        padding: 30px;
+        background-color: yellow;
+    }
+    
+    li {
+        height: 30px;
+        line-height: 30px;
+        list-style: none;
+        background-color: white;
+        border: 1px rgb(214, 214, 214) solid;
+    }
+    
+    li:nth-of-type(even) {
+        background-color: rgb(230, 230, 230);
+    }
+    
+    li:hover {
+        background-color: rgb(175, 175, 175);
+        cursor: pointer;
+    }
+    
+    label:hover {
+        cursor: pointer;
+    }
+    
+    input:hover {
+        cursor: pointer;
+    }
+    
+    .checkboxes {
+        font-size: larger;
+    }
+    
+    .X-box {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        color: blue;
+        text-decoration: none;
+        text-align: center;
+        float: right;
+        background-color: red;
+    }
+    
+    .X-box:hover {
+        background-color: rgb(255, 166, 166);
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    
+    .button {
+        background-color: green;
+        border: green solid 1px;
+        width: 100px;
+        height: 25px;
+        text-align: center;
+        color: ivory;
+        margin: 20px 20px 20px 0px;
+        border-radius: 5px;
+    }
